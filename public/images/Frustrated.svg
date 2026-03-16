@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.32 74.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d36b3d;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #3e423b;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        fill: #3e423b;
+      }
+    </style>
+  </defs>
+  <g id="Very_Stressed" data-name="Very Stressed">
+    <g>
+      <circle class="cls-1" cx="37.16" cy="37.16" r="37.16"/>
+      <path class="cls-2" d="M57.47,58.45c0-17.62-40.61-17.62-40.61,0h40.61Z"/>
+      <circle class="cls-3" cx="23.8" cy="29.98" r="4.96"/>
+      <circle class="cls-3" cx="50.53" cy="29.98" r="4.96"/>
+    </g>
+  </g>
+</svg>

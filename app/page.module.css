@@ -139,3 +139,22 @@ a.secondary {
     --button-secondary-border: #1a1a1a;
   }
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.cityScene img {
+  width: 100%;
+  height: 100vh;
+}
+
+.badgeBar {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: #39337d;
+}

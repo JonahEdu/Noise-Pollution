@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.9 91.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #955fce;
+      }
+    </style>
+  </defs>
+  <g id="Speaker_Sticker" data-name="Speaker Sticker">
+    <g>
+      <circle class="cls-1" cx="45.95" cy="45.95" r="45.95"/>
+      <g>
+        <rect x="27.98" y="19.77" width="35.94" height="53.5" rx="8.54" ry="8.54"/>
+        <circle class="cls-1" cx="45.95" cy="57.08" r="13.31"/>
+        <circle class="cls-1" cx="45.95" cy="32.32" r="9.4"/>
+        <circle cx="45.95" cy="57.08" r="10.91"/>
+        <circle cx="45.95" cy="32.32" r="7.45"/>
+        <circle class="cls-1" cx="45.95" cy="32.32" r="2.88"/>
+        <circle class="cls-1" cx="45.95" cy="57.08" r="3.81"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 91.9 91.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d8d8d8;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <g id="Traffic_Sticker" data-name="Traffic Sticker">
+    <g>
+      <circle class="cls-2" cx="45.95" cy="45.95" r="45.95"/>
+      <line class="cls-1" x1="45.95" y1="21.83" x2="45.95" y2="70.06"/>
+      <line class="cls-1" x1="70.06" y1="48.16" x2="21.83" y2="48.16"/>
+    </g>
+  </g>
+</svg>

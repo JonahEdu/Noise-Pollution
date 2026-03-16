@@ -158,3 +158,8 @@ a.secondary {
   left: 30px;
   background-color: #39337d;
 }
+
+.cityScene {
+  display: flex;
+  justify-content: center;
+}

@@ -1,18 +1,47 @@
-import Image from "next/image";
-import "./page.module.css";
-import CityScene from "@/components/CityScene";
 import BadgeBar from "@/components/BadgeBar";
 import DialogueBox from "@/components/DialogueBox";
 import NoiseMeter from "@/components/NoiseMeter";
-
-
+import "./page.module.css";
+import TopOrderComponent from "@/components/TopOrderComponent";
 export default function Home() {
   return (
-    <main>
-      <CityScene />
-      <BadgeBar />
-      <DialogueBox />
-      <NoiseMeter />
+    <main
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100vh",
+        overflow: "hidden",
+      }}
+    >
+      {/* 1. The Image Layer */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: 0,
+        }}
+      >
+        <img
+          src="/images/Cityscape.svg"
+          alt="Background"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            display: "block",
+          }}
+        />
+      </div>
+
+      {/* 2. The Content Layer */}
+      <div style={{ position: "relative", zIndex: 1, height: "100%" }}>
+        <TopOrderComponent />
+        <DialogueBox />
+        <NoiseMeter />
+      </div>
     </main>
   );
 }

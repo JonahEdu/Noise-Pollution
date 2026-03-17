@@ -11,4 +11,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-  
+
+.badge {
+  height: 100%;
+}

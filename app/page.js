@@ -1,9 +1,9 @@
-import BadgeBar from "@/components/BadgeBar";
 import DialogueBox from "@/components/DialogueBox";
-import NoiseMeter from "@/components/NoiseMeter";
 import "./page.module.css";
 import TopOrderComponent from "@/components/TopOrderComponent";
-export default function Home() {
+export default function Home(db) {
+  const percent = Math.min((db / 110) * 100, 100);
+
   return (
     <main
       style={{
@@ -36,11 +36,8 @@ export default function Home() {
         />
       </div>
 
-      {/* 2. The Content Layer */}
       <div style={{ position: "relative", zIndex: 1, height: "100%" }}>
         <TopOrderComponent />
-        <DialogueBox />
-        <NoiseMeter />
       </div>
     </main>
   );

@@ -2,6 +2,7 @@
 import Car from "./Car";
 import BadgeBar from "./BadgeBar";
 import { useState } from "react";
+
 const TopOrderComponent = () => {
   const [badgeSpeaker, setBadgeSpeaker] = useState(false);
   const [badgeCar, setBadgeCar] = useState(false);
@@ -11,7 +12,9 @@ const TopOrderComponent = () => {
   return (
     <div>
       <div
-        onClick={() => setBadgeCar(true)}
+        onClick={() => {
+          setBadgeCar(true);
+        }}
         className="road"
         style={{
           position: "absolute",
@@ -28,7 +31,7 @@ const TopOrderComponent = () => {
         className="construction-sector"
         style={{
           position: "absolute",
-          top: "122px",
+          top: "127px",
           left: "40px",
           cursor: "pointer",
         }}
@@ -50,6 +53,7 @@ const TopOrderComponent = () => {
           position: "absolute",
           top: "490px",
           left: "1050px",
+          cursor: "pointer",
         }}
       >
         <img
@@ -67,6 +71,7 @@ const TopOrderComponent = () => {
           position: "absolute",
           left: "30%",
           top: "2%",
+          cursor: "pointer",
         }}
       >
         <img

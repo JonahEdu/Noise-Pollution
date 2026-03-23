@@ -1,5 +1,4 @@
 "use client";
-import Car from "./Car";
 import BadgeBar from "./BadgeBar";
 import { useState } from "react";
 
@@ -29,7 +28,7 @@ const TopOrderComponent = () => {
             height: "100px",
             width: "200px",
           }}
-          src="/images/car.svg"
+          src="/images/Car.svg"
           alt=""
         />{" "}
       </div>

@@ -29,10 +29,11 @@ export default function BadgeBar({ car, construction, speaker, airplane }) {
           <img
             onClick={() => {
               setDb(70);
+              console.log(db);
             }}
             src="/images/Traffic-Badge.svg"
             alt=""
-            className="badge"
+            className={db === 70 ? "badge border-active" : "badge"}
           />
         ) : (
           <img
@@ -47,7 +48,7 @@ export default function BadgeBar({ car, construction, speaker, airplane }) {
             onClick={() => setDb(85)}
             src="/images/Speaker-Badge.svg"
             alt=""
-            className="badge"
+            className={db === 85 ? "badge border-active" : "badge"}
           />
         ) : (
           <img
@@ -62,7 +63,7 @@ export default function BadgeBar({ car, construction, speaker, airplane }) {
             onClick={() => setDb(100)}
             src="/images/Construction-Badge.svg"
             alt="Construction Badge"
-            className="badge"
+            className={db === 100 ? "badge border-active" : "badge"}
           />
         ) : (
           <img
@@ -77,7 +78,7 @@ export default function BadgeBar({ car, construction, speaker, airplane }) {
             onClick={() => setDb(110)}
             src="/images/Airplane-Badge.svg"
             alt="Construction Badge"
-            className="badge"
+            className={db === 110 ? "badge border-active" : "badge"}
           />
         ) : (
           <img

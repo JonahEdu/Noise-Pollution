@@ -23,12 +23,19 @@ const TopOrderComponent = () => {
           cursor: "pointer",
         }}
       >
-        <Car />
+        <img
+          className={!badgeCar ? "heartbeat-icon" : ""}
+          style={{
+            height: "100px",
+            width: "200px",
+          }}
+          src="/images/car.svg"
+          alt=""
+        />{" "}
       </div>
 
       <div
         onClick={() => setBadgeConstruction(true)}
-        className="construction-sector"
         style={{
           position: "absolute",
           top: "127px",
@@ -37,6 +44,7 @@ const TopOrderComponent = () => {
         }}
       >
         <img
+          className={!badgeConstruction ? "heartbeat-icon" : ""}
           src="/images/Construction.svg"
           alt=""
           style={{
@@ -57,6 +65,7 @@ const TopOrderComponent = () => {
         }}
       >
         <img
+          className={!badgeSpeaker ? "heartbeat-icon" : ""}
           src="/images/Speaker.svg"
           alt="Speaker Vector"
           style={{
@@ -75,6 +84,7 @@ const TopOrderComponent = () => {
         }}
       >
         <img
+          className={!badgeAirplane ? "heartbeat-icon" : ""}
           src="/images/Airplane.svg"
           alt=""
           style={{

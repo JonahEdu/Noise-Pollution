@@ -50,3 +50,39 @@ body{
   border-color: transparent transparent transparent #ffffff;
   z-index: 1;
 }
+
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1); 
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  
+}
+
+
+.heartbeat-icon {
+      animation: heartbeat 2s ease-in-out infinite;
+      transition: transform 0.3s ease;
+    }
+
+.heartbeat-icon:hover {
+      animation-play-state: paused;
+      transform: scale(1.15) !important;
+    }
+
+  .border-active {
+    border: 5px solid black;
+    border-radius: 50%;
+  }

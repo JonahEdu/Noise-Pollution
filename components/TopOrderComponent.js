@@ -7,6 +7,7 @@ const TopOrderComponent = () => {
   const [badgeCar, setBadgeCar] = useState(false);
   const [badgeConstruction, setBadgeConstruction] = useState(false);
   const [badgeAirplane, setBadgeAirplane] = useState(false);
+  const [db, setDb] = useState(0);
 
   return (
     <div>
@@ -98,6 +99,7 @@ const TopOrderComponent = () => {
         construction={badgeConstruction}
         speaker={badgeSpeaker}
         airplane={badgeAirplane}
+        db={db}
       />
     </div>
   );
